@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+  font-weight: 300;
+
+  color: #fff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+body,
+html {
+  height: 100%;
+}
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+
+  content: '';
+}
+input {
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+.clearfix:after {
+  clear: both;
+}
+/* для IE6-7 */
+.clearfix {
+  zoom: 1;
+}
+
