@@ -318,6 +318,9 @@ input {
   background-color: #0097e0;
   box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .26);
 }
+.button_info:hover {
+  background-color: #09cfa0;
+}
 .category__img_oil {
   background-image: url(../img/oil.jpg);
   background-repeat: no-repeat;
